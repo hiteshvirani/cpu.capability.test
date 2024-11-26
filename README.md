@@ -27,7 +27,7 @@ Run the script using:
 
 bash
 Copy code
-python stress_test_tool.py
+python main.py
 Enter the required parameters based on the selected mode:
 
 Normal Mode:
@@ -47,12 +47,10 @@ Requests: 10000
 Command:
 
 bash
-Copy code
 python stress_test_tool.py
 Input:
 
 text
-Copy code
 Enter the endpoint URL: https://example.com/api
 Select mode (normal/continuous/random): normal
 Enter the number of requests to send: 10000
@@ -64,7 +62,6 @@ Maximum Time: 30 seconds
 Input:
 
 text
-Copy code
 Enter the endpoint URL: https://example.com/api
 Select mode (normal/continuous/random): continuous
 Enter the number of requests to send per batch: 50
@@ -78,7 +75,6 @@ Maximum Time: 60 seconds
 Input:
 
 text
-Copy code
 Enter the endpoint URL: https://example.com/api
 Select mode (normal/continuous/random): random
 Enter the minimum number of requests per batch: 500
@@ -95,7 +91,6 @@ Average, maximum, and minimum response times.
 Example:
 
 text
-Copy code
 Results:
 Total requests: 50
 Successful requests: 48
@@ -107,7 +102,6 @@ License
 This project is licensed under the MIT License. Feel free to use and modify it as needed.
 
 yaml
-Copy code
 
 ---
 
